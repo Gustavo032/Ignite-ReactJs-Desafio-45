@@ -25,11 +25,11 @@ export function ModalViewImage({
 			<ModalOverlay/>
 			<ModalContent 
 			mx='auto'
-			width='auto'
+			w='auto'
 			h='auto'
-			maxW={['300px', '500px', '900px']}			
+			maxW={['300px', '500px', '900px']}
 			maxH={['350px', '450px', '600px']}>
-				<ModalBody p="0">
+				<ModalBody p="0" w="100%">
 					<Image 
 					src={imgUrl}
 					maxW={['300px', '500px', '900px']}			
